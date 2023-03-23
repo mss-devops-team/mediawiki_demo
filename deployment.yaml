@@ -15,7 +15,7 @@ spec:
                 app: mediawiki
         spec:
             containers:
-                - image: $MEDIAWIKI_IMAGE_REPLACE_ME
+                - image: docker.io/srinivasareddy4218/mediawiki:latest
                   imagePullPolicy: Always
                   name: mediawiki
                   ports:
